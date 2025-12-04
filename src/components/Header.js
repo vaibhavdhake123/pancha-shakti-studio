@@ -23,9 +23,9 @@ export default function Header() {
             <a href="#" className="text-gray-800 font-bold hover:text-green-600 transition-colors duration-300">SHOP</a>
             <a href="#" className="text-gray-800 font-bold hover:text-green-600 transition-colors duration-300">BUNDLES</a>
 
-            <button className="text-gray-800 font-bold flex items-center gap-1 hover:text-green-600 transition-colors duration-300 group">
+            <a href="/about" className="text-gray-800 font-bold flex items-center gap-1 hover:text-green-600 transition-colors duration-300 group">
               ABOUT <ChevronDown size={16} className="group-hover:rotate-180 transition-transform duration-300" />
-            </button>
+            </a>
 
             <a href="#" className="text-gray-800 font-bold hover:text-green-600 transition-colors duration-300">BLOG</a>
             <a href="#" className="text-gray-800 font-bold hover:text-green-600 transition-colors duration-300">TESTIMONIALS</a>
@@ -100,7 +100,7 @@ export default function Header() {
             <a href="/" className="block text-gray-700 py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300 font-medium">HOME</a>
             <a href="#" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">SHOP</a>
             <a href="#" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">BUNDLES</a>
-            <a href="#" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">ABOUT</a>
+            <a href="/about" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">ABOUT</a>
             <a href="#" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">BLOG</a>
             <a href="#" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">TESTIMONIALS</a>
             <a href="/contact-us" className="block text-gray-800 font-bold py-2 hover:text-green-600 hover:translate-x-2 transition-all duration-300">CONTACT US</a>
